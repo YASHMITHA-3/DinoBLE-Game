@@ -1,0 +1,26 @@
+<lint-module
+    format="1"
+    dir="/Users/riteeshram/.pub-cache/hosted/pub.dev/reactive_ble_mobile-5.4.0/android"
+    name=":reactive_ble_mobile"
+    type="LIBRARY"
+    maven="com.signify.hue.flutterreactiveblelib:reactive_ble_mobile:1.23.0"
+    agpVersion="8.7.0"
+    buildFolder="/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/build/reactive_ble_mobile"
+    bootClassPath="/Users/riteeshram/Library/Android/sdk/platforms/android-33/android.jar:/Users/riteeshram/Library/Android/sdk/build-tools/34.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-33"
+    neverShrinking="true">
+  <lintOptions
+      disable="InvalidPackage"
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true">
+    <severities>
+      <severity
+        id="InvalidPackage"
+        severity="IGNORE" />
+    </severities>
+  </lintOptions>
+  <variant name="release"/>
+</lint-module>

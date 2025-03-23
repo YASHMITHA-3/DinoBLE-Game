@@ -1,0 +1,4 @@
+#Sun Mar 23 17:55:16 GMT 2025
+base.0=/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

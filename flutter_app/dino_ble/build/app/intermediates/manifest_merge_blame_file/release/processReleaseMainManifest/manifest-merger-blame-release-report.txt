@@ -1,0 +1,225 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.flutter_dinosaur.the_dino_game"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission
+11-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:3:5-67
+12        android:name="android.permission.BLUETOOTH"
+12-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:3:22-65
+13        android:maxSdkVersion="30" />
+13-->[:reactive_ble_mobile] /Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/build/reactive_ble_mobile/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:10:9-35
+14    <uses-permission
+14-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:4:5-73
+15        android:name="android.permission.BLUETOOTH_ADMIN"
+15-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:4:22-71
+16        android:maxSdkVersion="30" />
+16-->[:reactive_ble_mobile] /Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/build/reactive_ble_mobile/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:13:9-35
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:5:5-78
+17-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:5:22-76
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:6:5-80
+18-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:6:22-78
+19    <uses-permission
+19-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:7:5-72
+20        android:name="android.permission.BLUETOOTH_SCAN"
+20-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:7:22-70
+21        android:usesPermissionFlags="neverForLocation" />
+21-->[com.polidea.rxandroidble2:rxandroidble:1.16.0] /Users/riteeshram/.gradle/caches/8.10.2/transforms/e10aa1fcd389b7e8beeca0ce74fd9c9d/transformed/jetified-rxandroidble-1.16.0/AndroidManifest.xml:24:9-55
+22    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+22-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:8:5-75
+22-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:8:22-73
+23    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+23-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:9:5-77
+23-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:9:22-75
+24
+25    <uses-feature
+25-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:10:5-89
+26        android:name="android.hardware.bluetooth_le"
+26-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:10:19-63
+27        android:required="true" />
+27-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:10:64-87
+28    <!--
+29         Required to query activities that can process text, see:
+30         https://developer.android.com/training/package-visibility and
+31         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+32
+33         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+34    -->
+35    <queries>
+35-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:50:5-55:15
+36        <intent>
+36-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:51:9-54:18
+37            <action android:name="android.intent.action.PROCESS_TEXT" />
+37-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:52:13-72
+37-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:52:21-70
+38
+39            <data android:mimeType="text/plain" />
+39-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:53:13-50
+39-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:53:19-48
+40        </intent>
+41    </queries>
+42
+43    <permission
+43-->[androidx.core:core:1.13.1] /Users/riteeshram/.gradle/caches/8.10.2/transforms/8cf478dec41eed746328fa8046755ba2/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+44        android:name="com.example.flutter_dinosaur.the_dino_game.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+44-->[androidx.core:core:1.13.1] /Users/riteeshram/.gradle/caches/8.10.2/transforms/8cf478dec41eed746328fa8046755ba2/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+45        android:protectionLevel="signature" />
+45-->[androidx.core:core:1.13.1] /Users/riteeshram/.gradle/caches/8.10.2/transforms/8cf478dec41eed746328fa8046755ba2/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+46
+47    <uses-permission android:name="com.example.flutter_dinosaur.the_dino_game.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- required for API 23 - 30, no android:maxSdkVersion because of a potential breaking change -->
+47-->[androidx.core:core:1.13.1] /Users/riteeshram/.gradle/caches/8.10.2/transforms/8cf478dec41eed746328fa8046755ba2/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+47-->[androidx.core:core:1.13.1] /Users/riteeshram/.gradle/caches/8.10.2/transforms/8cf478dec41eed746328fa8046755ba2/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+48    <!-- TODO: add android:maxSdkVersion on 2.0.0 -->
+49    <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION" />
+49-->[com.polidea.rxandroidble2:rxandroidble:1.16.0] /Users/riteeshram/.gradle/caches/8.10.2/transforms/e10aa1fcd389b7e8beeca0ce74fd9c9d/transformed/jetified-rxandroidble-1.16.0/AndroidManifest.xml:18:5-88
+49-->[com.polidea.rxandroidble2:rxandroidble:1.16.0] /Users/riteeshram/.gradle/caches/8.10.2/transforms/e10aa1fcd389b7e8beeca0ce74fd9c9d/transformed/jetified-rxandroidble-1.16.0/AndroidManifest.xml:18:29-85
+50    <uses-permission-sdk-23 android:name="android.permission.ACCESS_FINE_LOCATION" />
+50-->[com.polidea.rxandroidble2:rxandroidble:1.16.0] /Users/riteeshram/.gradle/caches/8.10.2/transforms/e10aa1fcd389b7e8beeca0ce74fd9c9d/transformed/jetified-rxandroidble-1.16.0/AndroidManifest.xml:19:5-86
+50-->[com.polidea.rxandroidble2:rxandroidble:1.16.0] /Users/riteeshram/.gradle/caches/8.10.2/transforms/e10aa1fcd389b7e8beeca0ce74fd9c9d/transformed/jetified-rxandroidble-1.16.0/AndroidManifest.xml:19:29-83
+51
+52    <application
+53        android:name="android.app.Application"
+53-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:15:9-42
+54        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+54-->[androidx.core:core:1.13.1] /Users/riteeshram/.gradle/caches/8.10.2/transforms/8cf478dec41eed746328fa8046755ba2/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+55        android:extractNativeLibs="true"
+56        android:icon="@mipmap/ic_launcher"
+56-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:16:9-43
+57        android:label="dino_ble" >
+57-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:14:9-33
+58        <activity
+58-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:17:9-38:20
+59            android:name="com.example.flutter_dinosaur.the_dino_game.MainActivity"
+59-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:18:13-41
+60            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+60-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:23:13-163
+61            android:exported="true"
+61-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:19:13-36
+62            android:hardwareAccelerated="true"
+62-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:24:13-47
+63            android:launchMode="singleTop"
+63-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:20:13-43
+64            android:taskAffinity=""
+64-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:21:13-36
+65            android:theme="@style/LaunchTheme"
+65-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:22:13-47
+66            android:windowSoftInputMode="adjustResize" >
+66-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:25:13-55
+67
+68            <!--
+69                 Specifies an Android theme to apply to this Activity as soon as
+70                 the Android process has started. This theme is visible to the user
+71                 while the Flutter UI initializes. After that, this theme continues
+72                 to determine the Window background behind the Flutter UI.
+73            -->
+74            <meta-data
+74-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:30:13-33:17
+75                android:name="io.flutter.embedding.android.NormalTheme"
+75-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:31:15-70
+76                android:resource="@style/NormalTheme" />
+76-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:32:15-52
+77
+78            <intent-filter>
+78-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:34:13-37:29
+79                <action android:name="android.intent.action.MAIN" />
+79-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:35:17-68
+79-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:35:25-66
+80
+81                <category android:name="android.intent.category.LAUNCHER" />
+81-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:36:17-76
+81-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:36:27-74
+82            </intent-filter>
+83        </activity>
+84        <!--
+85             Don't delete the meta-data below.
+86             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+87        -->
+88        <meta-data
+88-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:41:9-43:33
+89            android:name="flutterEmbedding"
+89-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:42:13-44
+90            android:value="2" />
+90-->/Users/riteeshram/Documents/MUC Dino Project/Integrating_Dino_BLE/dino_ble/android/app/src/main/AndroidManifest.xml:43:13-30
+91
+92        <uses-library
+92-->[androidx.window:window:1.2.0] /Users/riteeshram/.gradle/caches/8.10.2/transforms/5093ab42d2307deb2d7ac0b7f5718c38/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+93            android:name="androidx.window.extensions"
+93-->[androidx.window:window:1.2.0] /Users/riteeshram/.gradle/caches/8.10.2/transforms/5093ab42d2307deb2d7ac0b7f5718c38/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+94            android:required="false" />
+94-->[androidx.window:window:1.2.0] /Users/riteeshram/.gradle/caches/8.10.2/transforms/5093ab42d2307deb2d7ac0b7f5718c38/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+95        <uses-library
+95-->[androidx.window:window:1.2.0] /Users/riteeshram/.gradle/caches/8.10.2/transforms/5093ab42d2307deb2d7ac0b7f5718c38/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+96            android:name="androidx.window.sidecar"
+96-->[androidx.window:window:1.2.0] /Users/riteeshram/.gradle/caches/8.10.2/transforms/5093ab42d2307deb2d7ac0b7f5718c38/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+97            android:required="false" />
+97-->[androidx.window:window:1.2.0] /Users/riteeshram/.gradle/caches/8.10.2/transforms/5093ab42d2307deb2d7ac0b7f5718c38/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+98
+99        <provider
+99-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/riteeshram/.gradle/caches/8.10.2/transforms/e80aa748ff6540407d8dba61c0d945fe/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+100            android:name="androidx.startup.InitializationProvider"
+100-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/riteeshram/.gradle/caches/8.10.2/transforms/e80aa748ff6540407d8dba61c0d945fe/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:25:13-67
+101            android:authorities="com.example.flutter_dinosaur.the_dino_game.androidx-startup"
+101-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/riteeshram/.gradle/caches/8.10.2/transforms/e80aa748ff6540407d8dba61c0d945fe/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:26:13-68
+102            android:exported="false" >
+102-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/riteeshram/.gradle/caches/8.10.2/transforms/e80aa748ff6540407d8dba61c0d945fe/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:27:13-37
+103            <meta-data
+103-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/riteeshram/.gradle/caches/8.10.2/transforms/e80aa748ff6540407d8dba61c0d945fe/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+104                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+104-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/riteeshram/.gradle/caches/8.10.2/transforms/e80aa748ff6540407d8dba61c0d945fe/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+105                android:value="androidx.startup" />
+105-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/riteeshram/.gradle/caches/8.10.2/transforms/e80aa748ff6540407d8dba61c0d945fe/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+106            <meta-data
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riteeshram/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+107                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riteeshram/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+108                android:value="androidx.startup" />
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riteeshram/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+109        </provider>
+110
+111        <receiver
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riteeshram/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+112            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riteeshram/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+113            android:directBootAware="false"
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riteeshram/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+114            android:enabled="true"
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riteeshram/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+115            android:exported="true"
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riteeshram/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+116            android:permission="android.permission.DUMP" >
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riteeshram/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+117            <intent-filter>
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riteeshram/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+118                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riteeshram/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riteeshram/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+119            </intent-filter>
+120            <intent-filter>
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riteeshram/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+121                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riteeshram/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riteeshram/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+122            </intent-filter>
+123            <intent-filter>
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riteeshram/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+124                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riteeshram/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riteeshram/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+125            </intent-filter>
+126            <intent-filter>
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riteeshram/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+127                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riteeshram/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/riteeshram/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+128            </intent-filter>
+129        </receiver>
+130    </application>
+131
+132</manifest>
