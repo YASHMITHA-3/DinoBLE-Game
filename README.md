@@ -39,5 +39,5 @@ See `data/model_training.ipynb` to:
 
 ## 🙌 Contributors
 - <a href=https://github.com/YASHMITHA-3>Yashmitha Ramesh</a>
-- Nishma Nair
-- Riteesh Ram Chander Bollavaram Golla 
+- <a href=https://github.com/nishmanair>Nishma Nair</a> 
+- <a href=https://github.com/riteesh-ram>Riteesh Ram Chander Bollavaram Golla </a> 
