@@ -41,6 +41,6 @@ See `data/model_training.ipynb` to:
 - <a href=https://github.com/YASHMITHA-3>Yashmitha Ramesh</a>
 - <a href=https://github.com/nishmanair>Nishma Nair</a> 
 - <a href=https://github.com/riteesh-ram>Riteesh Ram Chander Bollavaram Golla </a>
-
-  ## Downloads
-  - 👉 [Download APK](https://github.com/YASHMITHA-3/DinoBLE-Game/releases/tag/v1.0/app-release.apk)
+ 
+## Downloads
+- 👉 [Download APK](https://github.com/YASHMITHA-3/DinoBLE-Game/releases/tag/v1.0/app-release.apk)
