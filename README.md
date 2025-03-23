@@ -43,4 +43,4 @@ See `data/model_training.ipynb` to:
 - <a href=https://github.com/riteesh-ram>Riteesh Ram Chander Bollavaram Golla </a>
  
 ## Downloads
-- 👉 [Download APK](app-release.apk)
+- 👉 [Download APK](https://github.com/YASHMITHA-3/DinoBLE-Game/releases/tag/v1.0#:~:text=3-,app%2Drelease.apk,-16.6%20MB)
