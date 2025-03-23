@@ -37,6 +37,6 @@ See `data/model_training.ipynb` to:
 - Jump signal triggers Dino jump 🦖
 
 ## 🙌 Contributors
-- Yashmitha Ramesh <a href=https://github.com/YASHMITHA-3>
+- <a href=https://github.com/YASHMITHA-3>Yashmitha Ramesh</a>
 - Nishma Nair
 - Riteesh Ram Chander Bollavaram Golla 
