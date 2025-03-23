@@ -133,6 +133,8 @@ void loop() {
                 if (predicted_class == 1) {
                     uint8_t value = 1;
                     motionCharacteristic.setValue(&value, 1);
+                    Serial.print("Jump Detected.\t");
+                    Serial.println("Sent 1 to flutter dino game app");
                   }
               }
             delay(100);// Small delay between predictions
