@@ -11,24 +11,8 @@ Control a Flutter-based Dino Game using jump gestures detected by an Arduino Nan
 - **Python** for model training
 
 ## 📁 Project Structure
-DinoController/
-│
-├── arduino/
-│   ├── DinoController.ino
-│   ├── model.h
-│   └── README.md      
-│
-├── flutter_app/
-│   ├── lib/
-│   │   └── main.dart   ← Your Flutter code
-│   └── README.md       ← Optional (explain Flutter side)
-│
-├── data/
-│   ├── idle.csv
-│   ├── jump.csv
-│   └── model_training.ipynb  ← Python script or notebook to train & export model
-│
-└── README.md           ← Main project readme
+<img width="640" alt="image" src="https://github.com/user-attachments/assets/e792b145-966f-45c0-9b43-acd508eab3d2" />
+
 
 
 ## 🚀 How It Works
