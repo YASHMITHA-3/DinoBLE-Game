@@ -31,6 +31,7 @@ See `data/model_training.ipynb` to:
 ### Arduino
 - Upload `arduino/DinoController.ino` with `model.h`
 - Monitor BLE output for gesture detection
+- Also download <a href=https://github.com/tensorflow/tflite-micro-arduino-examples>https://github.com/tensorflow/tflite-micro-arduino-examples</a>
 
 ### Flutter App
 - Pair with Arduino over BLE
