@@ -11,35 +11,7 @@ Control a Flutter-based Dino Game using jump gestures detected by an Arduino Nan
 - **Python** for model training
 
 ## 📁 Project Structure
-<img width="640" alt="image" src="https://github.com/user-attachments/assets/e792b145-966f-45c0-9b43-acd508eab3d2" />
-
-DinoController/
-│
-├── arduino/
-│   ├── DinoController.ino
-│   ├── model.h
-│   └── README.md   
-│
-├── flutter_app/dino_ble
-│   ├── lib/
-│   │    ├── main.dart
-│   │    ├── trex_widget.dart
-│   │    ├── player.dart
-│   │    ├── game_over.dart
-│   │    ├── trex_game.dart
-│   │    └── trex_widget.dart
-│   │    
-|   ├── pubspec.yaml
-│   │  
-│   └── README.md       
-│
-├── data/
-│   ├── idle.csv
-│   ├── jump.csv
-│   └── model_training.ipynb  
-│     
-└── README.md               
-
+<img width="324" alt="image" src="https://github.com/user-attachments/assets/7f8fbd26-4f0c-4a33-ab09-8065c6d387c7" />
 
 ## 🚀 How It Works
 1. IMU reads acceleration data.
