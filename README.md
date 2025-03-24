@@ -11,7 +11,8 @@ Control a Flutter-based Dino Game using jump gestures detected by an Arduino Nan
 - **Python** for model training
 
 ## 📁 Project Structure
-<img width="324" alt="image" src="https://github.com/user-attachments/assets/7f8fbd26-4f0c-4a33-ab09-8065c6d387c7" />
+<img width="358" alt="image" src="https://github.com/user-attachments/assets/e22dbcf3-c32b-47f5-99ca-e48fd96f9c1b" />
+
 
 ## 🚀 How It Works
 1. IMU reads acceleration data.
